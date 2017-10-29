@@ -1,0 +1,165 @@
+body{
+  background: url(http://slycepizzabar.com/wp-content/uploads/2014/08/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-align: center;
+}
+
+#menuBG {
+	margin: 0% auto;
+	width: 650px;
+	border-radius: 25px;
+	padding: 1px 0px;
+	opacity: 1;
+}
+
+#menuBG>h1 {
+	font-size: 60px;
+	color: #000;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: -2% 0 0 auto;
+	text-align: center;
+}
+
+#frmMenu {
+	margin: 0% auto;
+	width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu { 
+	flex: 150px;
+	border: 8px solid #000;
+	box-shadow: 0 0 0 3px;
+	padding: 0 0 10px 0;
+  color: #fff;
+  background-color: #000;
+}
+
+.menu:nth-child(even) {
+	border-radius: 5px;
+}
+
+.menu:nth-child(odd) {
+	border-radius: 5px;
+}
+
+.menu>H3 {
+	color: #fff;
+	padding: 0 0 8px 60px;
+	margin: 0 auto;
+	border-radius: 25px 25px 0 0;
+  background-color: #000;
+}
+
+.button {
+	cursor: pointer;
+	color: #fff;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 1% auto;
+	padding: .1px 0 .1px 0px;
+  font: 18px sans-serif;
+	background-color: #000;
+	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	transition-timing-function: eas-in-out;
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	font: 18px
+	font-weight: bold;
+	color: #000;
+	background-color: rgba(255, 255, 255, .6);
+	box-shadow: 0 0 0 2px #080054;
+}
+
+.controls {
+	display: flex;
+  flex-direction: columns;
+  justify-content: space-between;
+	margin: 0 auto;
+	width: 550px;
+}
+
+.controls>.button {
+	flex: 1 150px;
+}
+
+#cancel {
+  opacity: 0;
+}
+
+#cart {
+  opacity: 0;
+	width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+	background-color: #000;
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+
+#title1 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #000;
+	border-radius: 25px 0 0 0;
+}
+
+#title2 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #000;
+	border-radius: 0 25px 0 0;
+}
+
+#showText1 {
+  color: #fff;
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#showText2 {
+  color: #fff;
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice1 {
+  color: #fff;
+	flex: 1 250px;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice2 {
+  color: #fff;
+	flex: 1 250px;
+	font-weight: bold;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
